@@ -62,14 +62,18 @@
   font-style: none;
 
 }
+.app-icono-redes:hover{
+  color: white;
+  text-decoration:none;
+}
 .icon-facebook{
-background: rgba(56,103,226,.8);
+background: #0163F7;
 }
 .icon-instagram{
-background: rgba(208,74,145,.8);
+background: linear-gradient(to top left, #FF28E3 0%,#FF28E3 10%, #BB28FF 20%,#8417FE 40%,#A237FD 60%,#FF2A57 80%,#FBE631 100% );
 }
 .icon-github{
-background: rgba(247,36,41,.8);
+background: #FF6622;
 }
 .icon:first-child{
   border-radius: 1rem 0 0 0;

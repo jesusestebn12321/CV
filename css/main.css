@@ -16,16 +16,28 @@
 .app-hr-aqua{background:aqua;color:aqua;}
 .text-uppercase {text-transform:uppercase !important;}
 .d-flex {display:-ms-flexbox !important;display:flex !important;}
-.app-navbar{background:rgba(0, 0, 0, .8);height:100%;border-radius:0px;position:absolute;}
-.app-separador-h2{background:aqua;margin-top:-10px;margin-bottom:50px;width:200px;height:4px;border-radius:10px;}
+.app-separador-1{background:#27D4ED;margin-top:-10px;margin-bottom:50px;width:200px;height:4px;border-radius:10px;}
+.app-separador-2{background:#008FFF;margin-top:-10px;margin-bottom:50px;width:200px;height:4px;border-radius:10px;}
+.app-separador-name{background:#6A55FF;margin-top:-10px;margin-bottom:50px;width:405px;height:4px;border-radius:10px;}
 .app-rotar:hover i{-webkit-animation:girar .5s ease-in-out;-o-animation:girar 1s ease-in-out;animation:girar 1s ease-in-out;}
-.app-girar:hover img{-webkit-animation:girar 1s ease-in-out;-o-animation:girar 1s ease-in-out;animation:girar 1s ease-in-out;}
 
 @media (min-width:768px) {.text-md-left {text-align:left !important;} .text-md-right {text-align:right !important;} .text-md-center {text-align:center !important;}}
 @keyframes girar{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
-header{background:-webkit-linear-gradient(to right, rgba(190,190,190,0.75) 0%, rgba(190,190,190,0.75) 1%, rgba(216,216,216,0.74) 23%, rgba(220,220,220,0.73) 49%, rgba(220,220,220,0.73) 54%, rgba(216,216,216,0.72) 82%, rgba(190,190,190,0.71) 99%, rgba(190,190,190,0.71) 100%);background:-o-linear-gradient(to right, rgba(190,190,190,0.75) 0%, rgba(190,190,190,0.75) 1%, rgba(216,216,216,0.74) 23%, rgba(220,220,220,0.73) 49%, rgba(220,220,220,0.73) 54%, rgba(216,216,216,0.72) 82%, rgba(190,190,190,0.71) 99%, rgba(190,190,190,0.71) 100%);background:linear-gradient(to right, rgba(190,190,190,0.75) 0%, rgba(190,190,190,0.75) 1%, rgba(216,216,216,0.74) 23%, rgba(220,220,220,0.73) 49%, rgba(220,220,220,0.73) 54%, rgba(216,216,216,0.72) 82%, rgba(190,190,190,0.71) 99%, rgba(190,190,190,0.71) 100%);padding-bottom:190px;text-align:justify;letter-spacing:2px;}
+header{background:-webkit-linear-gradient(left, #8C8B8B 0%, #8C8B8B 1%, #BABABA 23%, #D1D1D1 49%, #D1D1D1 54%, #BABABA 82%, #8C8B8B 99%, #8C8B8B 100%);background:-o-linear-gradient(left, #8C8B8B 0%, #8C8B8B 1%, #BABABA 23%, #D1D1D1 49%, #D1D1D1 54%, #BABABA 82%, #8C8B8B 99%, #8C8B8B 100%);background:linear-gradient(to right, #8C8B8B 0%, #8C8B8B 1%, #BABABA 23%, #D1D1D1 49%, #D1D1D1 54%, #BABABA 82%, #8C8B8B 99%, #8C8B8B 100%);padding-bottom:190px;text-align:justify;letter-spacing:2px;}
+main{background:-webkit-linear-gradient(to right,rgba(190,190,190,0.75) 0%,rgba(190,190,190,0.75) 1%,rgba(216,216,216,0.74) 23%,rgba(220,220,220,0.73) 49%,rgba(220,220,220,0.73) 54%,rgba(216,216,216,0.72) 82%,rgba(190,190,190,0.71) 99%,rgba(190,190,190,0.71) 100%);background:-o-linear-gradient(to right, rgba(190,190,190,0.75) 0%, rgba(190,190,190,0.75) 1%, rgba(216,216,216,0.74) 23%, rgba(220,220,220,0.73) 49%, rgba(220,220,220,0.73) 54%, rgba(216,216,216,0.72) 82%, rgba(190,190,190,0.71) 99%, rgba(190,190,190,0.71) 100%);background:linear-gradient(to right, rgba(190,190,190,0.75) 0%, rgba(190,190,190,0.75) 1%, rgba(216,216,216,0.74) 23%, rgba(220,220,220,0.73) 49%, rgba(220,220,220,0.73) 54%, rgba(216,216,216,0.72) 82%, rgba(190,190,190,0.71) 99%, rgba(190,190,190,0.71) 100%);padding-bottom:190px;text-align:justify;letter-spacing:2px;}
 
+#app-none{
+	background: none;
+	border:none;
+}
+#app-nav-border{border-radius:0px;outline: 5px solid #279DFF; }
+.app-navbar{
+background:rgba(0, 0, 0, .8);border:2px solid white;
 
+height:100%;border-radius:0px;position:absolute;}
+
+.app-footer-border{background: #279DFF;color:white;}
+.app-copy{background:-webkit-linear-gradient(left, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);background:-o-linear-gradient(left, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);background:linear-gradient(to right, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);; }
 .app-separador-medio{
 	background:#cccc;
 	margin-top:50px;
@@ -41,7 +53,7 @@ header{background:-webkit-linear-gradient(to right, rgba(190,190,190,0.75) 0%, r
 	background:white;
 	color:black;
 }.app-footer{
-	background:rgba(0, 0, 0, .8)
+	background:rgba(0, 0, 0, .8);
 }.app-footer-a{
 	color:white;
 	text-decoration-color:none;

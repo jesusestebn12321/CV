@@ -35,7 +35,7 @@ class Plantilla{
 		<body>
 		<header>
 		    <?php include 'sidebarredes.php'; ?>
-			<nav class="navbar app-navbar" style="border-radius:0px;border-bottom:5px solid rgba(0,51,108,.5);">
+			<nav class="navbar app-navbar" id="app-nav-border">
 				<div class="container">
 					<div class="navbar-header">
 						<div class="row">
@@ -60,7 +60,7 @@ class Plantilla{
 						</div>
 						<div class="app-centrar-nombre col-lg-6">
 							<p class="app-titulo-nombre"><h3> Jesus Esteban Villalta Gonzalez</h3></p>
-							<p class="app-separador-h2"></p>
+							<p class="app-separador-name"></p>
 							<ul>
 								<li class="list-group-item" style="padding: none;background: none;border:none;"><h4>Programador <i class="fa fa-code"></i> </h4></li>
 								<li class="list-group-item" style="padding: none;background: none;border:none;"><h4>Diseñador Web <i class="fa fa-code"></i> </h4></li>
@@ -82,23 +82,23 @@ class Plantilla{
 	</body>
 	<footer class="app-footer">
         
-		<div style="background-color: rgba(0,51,108,.5);color:white; ">
+		<div class="app-footer-border" style=" ">
 		    <div class="container">
 		        <div class="row py-4 d-flex">
 		          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 		            <h4 class="mb-0 app-h4">Jesus Esteban Villalta Gonzalez CV</h4>
 		          </div>
 		          <div class="col-md-6 col-lg-7 text-center text-md-right">
-		            <a class="app-rotar" href="https://www.facebook.com/esteban.villalta.SK8" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+		            <a class="app-rotar app-icono-redes" href="https://www.facebook.com/esteban.villalta.SK8" data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_black">
 		              <i class="fa fa-facebook  mr-4" style="color:white"> </i>
 		            </a>
-		            <a class="app-rotar" href="https://github.com/jesusestebn12321" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+		            <a class="app-rotar app-icono-redes" href="https://github.com/jesusestebn12321" data-toggle="tooltip" data-placement="bottom" title="GitHub" target="_black">
 		              <i class="fa fa-git  mr-4" style="color:white"> </i>
 		            </a>
-		            <a class="app-rotar" href="https://www.linkedin.com/in/jesus-esteban-villalta-12b11915a" data-toggle="tooltip" data-placement="bottom" title="Linkedin">
+		            <a class="app-rotar app-icono-redes" href="https://www.linkedin.com/in/jesus-esteban-villalta-12b11915a" data-toggle="tooltip" data-placement="bottom" title="Linkedin" target="_black">
 		              <i class="fa fa-linkedin  mr-4" style="color:white"> </i>
 		            </a>
-		            <a class="app-rotar" id="id" href="https://www.instagram.com/esteban_jvg.sk8" data-toggle="tooltip" data-placement="bottom" title="Instagram">
+		            <a class="app-rotar app-icono-redes" id="id" href="https://www.instagram.com/esteban_jvg.sk8" data-toggle="tooltip" data-placement="bottom" title="Instagram" target="_black">
 		              <i class="fa fa-instagram " style="color:white"> </i>
 		            </a>
 		          </div>
@@ -123,7 +123,7 @@ class Plantilla{
 		        <div class="col-md-3 col-lg-3 col-xl-6 mx-auto mb-md-0 mb-4" ></div>
 		    </div>
 		</div>
-		<div class="text-center py-3" style="background: #cccc">©2018 Copyright:
+		<div class="text-center py-3 app-copy">©2018 Copyright:
 		    <a href="#!"> JesusVillaltaCV</a>
 		</div>
     </footer>     

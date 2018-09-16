@@ -8,7 +8,7 @@ include'views/template/userPlantilla.php';
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
 				<h2>Habilidades <i class="fa fa-code"></i></h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-2"></p>
 				
 				<div class="row">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
@@ -101,7 +101,7 @@ include'views/template/userPlantilla.php';
 					</div>
 				</div>
 			<h2>FrameWork<i class="fa fa-code"></i></h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-2"></p>
 				<div class="row">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
@@ -182,42 +182,42 @@ include'views/template/userPlantilla.php';
 			</div>
 			<div class="col-xs-12 col-sm-5">
 				<h2>Sobre Mí <i class="fa fa-user"></i></h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-1"></p>
 				<ul>
-					<li class="list-group-item" style="border: none;">
-						<p>&nbsp;Soy Programador a tiempo completo, me caracteriso por tener seriedad y madures a la hora de trabajar, se asumir mis resposabilidades, soy una persona ambicioza y detallista a la hora de diseñar; tengo una buena capacidad de analisis y de logica para mis trabajo en Back-End. <br>&nbsp;No soy el mejor diseñador o el mejor en back-end pero intento serlo</p>
+					<li class="list-group-item app-none" style="background: none;  border: none;">
+						<p>&nbsp;Soy Programador a tiempo completo, me caracteriso por tener seriedad y madures a la hora de trabajar, se asumir mis resposabilidades, soy una persona ambicioza y detallista a la hora de diseñar, me gusta que mes diseños sena atractivos y divertido; tengo una buena capacidad de analisis y de logica para mis trabajo en Back-End. <br>&nbsp;No soy el mejor diseñador o el mejor en back-end pero intento serlo</p>
 					</li>
 				</ul>
 				<h2>Educación <i class="fa fa-university"></i> </h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-2"></p>
 				<ul>
-					<li class="list-group-item" style="border:none">
+					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Educación Universitaria:<br>	
 						&nbsp;&nbsp;(UNERG) "Ingenieria En Informatica"</p>
 					</li>
 				</ul>
 
 				<h2>Destresas <i class="fa fa-star"></i> </h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-1"></p>
 				<ul>
-					<li class="list-group-item" style="border:none">
+					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Desarrollo las parte logicas de las base de datos con gran destresas, soy un desarrollador de back-end y front-end en distintos lenguajes y framework de sistemas web micros y macros, trabajo en grupo con facilidad y muy buena comunicacion.</p>
 					</li>
 				</ul>
 
 				<h2>Residencia <i class="fa fa-map-marker"></i> </h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-2"></p>
 				<ul>
-					<li class="list-group-item" style="border:none">
+					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Residente en: <br>
 						&nbsp;&nbsp;Venezuela, Edo Guarico, San Juan De Los Morros.
 						</p>
 					</li>
 				</ul>
 				<h2>Trabajo en Equipo <i class="fa fa-users"></i> </h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-1"></p>
 				<ul>
-					<li class="list-group-item" style="border:none">
+					<li class="list-group-item" id="app-none">
 						<ul>
 							<li><p>GitHub</p></li>
 							<li><p>BitBucket</p></li>
@@ -226,9 +226,9 @@ include'views/template/userPlantilla.php';
 					</li>
 				</ul>
 				<h2>Jobies <i class="fa fa-coffee"></i></h2>
-				<p class="app-separador-h2"></p>
+				<p class="app-separador-2"></p>
 				<ul>
-					<li class="list-group-item" style="border:none">
+					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Me gusta el Deportista</p><br>
 						<p>&nbsp;Me gusta Disfrutar peliculas</p><br>
 						<p>&nbsp;Me gusta Realizar mis pequeños proyectos en mi tiempo libre</p><br>
@@ -237,4 +237,5 @@ include'views/template/userPlantilla.php';
 				</ul>
 			</div>
 		</div>
+		<hr style="color: #cccc;background-color: #cccc">
 	</main>
