@@ -28,9 +28,9 @@ class Plantilla{
 			<link rel="stylesheet" href="./css/redes.css">
 			<link rel="stylesheet" href="css/bootstrap.min.css">
 				<!-- Scripts -->
-			<script src="plugins/bootstrap/js/vendor/modernizr-2.8.3.min.js"></script>
-			<script src="plugins/bootstrap/js/vendor/bootstrap.min.js"></script>
-			<script src="plugins/bootstrap/js/vendor/jquery-1.11.2.min.js"></script>
+			<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/vendor/jquery-1.11.2.min.js"></script>
 		</head>
 		<body>
 		<header>
@@ -53,17 +53,21 @@ class Plantilla{
 				</div>
 			</nav>
 			<section>
-				<div class="app-centrar-imgP">
-					<img class="app-imagen-personal" src="img/imgPersonal.jpg" alt="imagen personal">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="app-centrar-imgP col-lg-6">
+							<img class="app-imagen-personal" src="img/imgPersonal.jpg" alt="imagen personal">
+						</div>
+						<div class="app-centrar-nombre col-lg-6">
+							<p class="app-titulo-nombre"><h3> Jesus Esteban Villalta Gonzalez</h3></p>
+							<p class="app-separador"></p>
+							<ul>
+								<li class="list-group-item" style="padding: none;background: none;border:none;border-left: 1px solid white;border-bottom: 2px solid white"><h4>Programador <i class="fa fa-code"></i> </h4></li>
+								<li class="list-group-item" style="padding: none;background: none;border:none;border-left: 1px solid white;border-bottom: 2px solid white"><h4>Diseñador Web <i class="fa fa-code"></i> </h4></li>
+							</ul>
+		                </div>
+					</div>
 				</div>
-				<div class="app-centrar-nombre">
-					<p class="app-titulo-nombre"><h3> Jesus Esteban Villalta Gonzalez</h3></p>
-					<p class="app-separador"></p>
-					<ul>
-						<li class="list-group-item" style="padding: none;background: none;border:none;border-left: 1px solid white;border-bottom: 2px solid white"><h4>Programador <i class="fa fa-code"></i> </h4></li>
-						<li class="list-group-item" style="padding: none;background: none;border:none;border-left: 1px solid white;border-bottom: 2px solid white"><h4>Diseñador Web <i class="fa fa-code"></i> </h4></li>
-					</ul>
-                </div>
                 <div>
 					<div> <?php include 'slider.php'; ?>  </div>
 				</div>

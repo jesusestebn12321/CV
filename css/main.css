@@ -81,22 +81,18 @@ header{background:-webkit-linear-gradient(to right, rgba(190,190,190,0.75) 0%, r
 	position:relative;
 	margin:0px 20px
 }.app-centrar-imgP{
-	width:21%;
-	height:20%;
+	padding: 0px;
+	width:50px;
+	position: absolute;
+	left:150px;
+	height:250px;
 	transition:all 1s;
-	margin-bottom:50px;
-	position:relative;
-	margin:0px auto;
+	border-radius:95%;
 }
 .app-imagen-personal{
-	width:100%;
+	width:50%;
 	height:100%;
 	border-radius:100%;
-}
-.app-centrar-imgP:hover{
-	width:22%;
-	height:21%;
-	border-radius:95%;
 }
 .app-centrar-nombre{
 	margin:0px auto;
