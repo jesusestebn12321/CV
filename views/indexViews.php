@@ -238,4 +238,21 @@ include'views/template/userPlantilla.php';
 			</div>
 		</div>
 		<hr style="color: #cccc;background-color: #cccc">
+		<div class="container">
+			<div class="row">
+				<h2>Esperiencia Laboral <i class="fa fa-briefcase"></i></h2>
+				<p class="app-separador-2" style="width: 350px"></p>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<div><h3>QuaTravel</h3></div><p class="app-separador-1" style="width:130px;"></p>
+						<div class="app-badge"><span class="badge"><h3 id="app-con-caja">1 Mes</h3></span></div>
+						<div>Sistema Back-End de oficina, para la empresa Quatravel</div>
+						<div>Elaborado en laravel</div>
+						<div>Front-End: <br>&nbsp;Diseño de vista para el dicho sistema de esta empresa de agencia de viaje de Perú.</div>
+						<div>Back-End: <br>&nbsp;Desarrollo logico del sistema varios CRUD en este sistema.</div>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
 	</main>
