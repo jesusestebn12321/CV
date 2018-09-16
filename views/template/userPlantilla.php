@@ -60,10 +60,10 @@ class Plantilla{
 						</div>
 						<div class="app-centrar-nombre col-lg-6">
 							<p class="app-titulo-nombre"><h3> Jesus Esteban Villalta Gonzalez</h3></p>
-							<p class="app-separador"></p>
+							<p class="app-separador-h2"></p>
 							<ul>
-								<li class="list-group-item" style="padding: none;background: none;border:none;border-left: 1px solid white;border-bottom: 2px solid white"><h4>Programador <i class="fa fa-code"></i> </h4></li>
-								<li class="list-group-item" style="padding: none;background: none;border:none;border-left: 1px solid white;border-bottom: 2px solid white"><h4>Diseñador Web <i class="fa fa-code"></i> </h4></li>
+								<li class="list-group-item" style="padding: none;background: none;border:none;"><h4>Programador <i class="fa fa-code"></i> </h4></li>
+								<li class="list-group-item" style="padding: none;background: none;border:none;"><h4>Diseñador Web <i class="fa fa-code"></i> </h4></li>
 							</ul>
 		                </div>
 					</div>
