@@ -1,0 +1,387 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.app-header{
+    background: url(../img/imagenes2/2galaxia.jpg) no-repeat center top fixed;
+    font-family: "Avenir", Futura, Helvetica, sans-serif;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom: 200px;
+}.navbar-nav>li>.dropdown-menu{
+	margin-top: 20px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}.mega-dropdown{
+    position: static !important;
+}.mega-dropdown-menu{
+    padding: 10px 10px;
+    width: 80%;
+    box-shadow: none;
+    webkit-box-shadow:none;
+    border-color: #1CB7DE;
+}.mega-dropdown-menu:before{
+    border-bottom: 15px solid white;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 535px;
+    z-index: 10;
+}.mega-dropdown-menu:after{
+    border-bottom: 17px solid #1CB7DE;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    top: -17px;
+    left: 530px;
+    z-index: 8;
+}.btn-personalizaciones{
+	background: #39BEE4;
+	color: white;
+	border-radius: 0;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+}
+.app-input{
+    height: 35px;
+    margin-top: 6px;
+}.app-navbar{
+    background: rgba(0,0,0,0.9);
+    border-radius: 0; 
+}.app-link{
+    color: white;
+    text-shadow: none;
+}.app-link:hover{
+    color:#85D9F4;
+}.app-enlaces{
+    color: #FFFFFF;
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-family:  "Avenir", Futura, Helvetica, sans-serif;
+}.app-contenedor-login{
+    width: 30%;
+}.app-help{
+    font-size: 0.8em;
+    color: black;
+    text-align: justify;
+}.app-inicio{
+    width: 40px;
+    color: #FFFFFF;
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-family:  "Avenir", Futura, Helvetica, sans-serif;
+}.app-nav>li>a{
+    color: #25C7F5;
+    text-shadow: none;
+}.app>li>a:hover{
+    color:white;
+    background-color: black: 
+}.app-icon{
+    background: white;
+}.app-seccion1{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+}.app-titulo{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 35px;
+    -webkit-transition: 3s;
+}.app-titulo:hover{
+    color: #206460;
+    font-size: 2.5em;
+    margin-bottom: 35px;
+    -webkit-transition: 2s;
+}.app-resaltar{
+    color: #80F5FF;
+}.app-resaltar2{
+    color: #007486;
+    font-family: "bold",bold, "cursiva";
+    font-size: 1em;
+}.app-resaltar3{
+    color: #029DFF;
+    font-family: "bold",bold, "cursiva";
+    font-size: 1em;
+}.app-letra{
+    color:white;
+    font-size: 0.9em;
+}.app-letra2{
+    color:white;
+    font-size: 1.5em;
+}.app-center{
+    text-align: center;
+}.app-descripcion{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 100px;
+}.app-formulario{
+    width:100%;
+    margin: 10px auto;
+}.app-formularios{
+    padding: 10px 80px 10px 80px;
+    background: rgba(0,0,0,0.95);
+}.app-formulario1{
+    width:95%;
+    margin: 0 auto;
+}.app-formulario2{
+    padding: 10px 30px 10px 15px;
+    background: rgba(02,02,02,0.6);
+}.app-input{
+    height: 50px;
+    margin-top: 10px;
+}.app-boton-inicio{
+    color: white;
+    width: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}.app-boton{
+    margin-top: 10px;
+    height: 50px;
+    background: #077C6D;
+    color: white;
+}.app-boton:hover{
+    color: white;
+}.app-seccion2{
+    margin: 30px 0;
+}.app-titulo2{
+    margin-top: 0;
+}.app-separador{
+    width: 100px;
+    border-bottom: 3px solid #0080d6;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}.app-separador1{
+    width: 1007px;
+    border-bottom: 3px solid #AFAFAF;
+    margin-top: 0.5px;
+    margin-bottom: 1px;
+}.app-justificar{
+    text-align: justify;
+    color: #727272;
+}.app-media{
+    margin-top: 20px;
+}.app-glyphicon1{
+    background-color: #0080d6;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}.app-seccion3{
+    background: #E1E1E1;
+    padding: 80px 0;
+}.app-seccion4{
+    background: #EDECEC;
+    padding: 80px 0;
+}.app-contenedor{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}.app-separador2{
+    width: 100px;
+    border-bottom: 3px solid #0080d6;
+    margin: 10px auto;
+}.app-lista1{
+    background-color: #060606;
+    color:white;
+    text-align: center;
+    border-bottom: 5px solid #0080d6;
+}.app-lista2{
+    background-color: #6E6D6D;
+    color:white;
+    text-align: center;
+    border-bottom: 5px solid #0080d6;
+}.app-precio{
+    text-align: center;
+}.app-pago{
+    font-weight: bold;
+    margin-right: 10px;
+}.app-btn1{
+    background-color: #D7D5D5;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 2px solid black;
+}.app-btn1:hover{
+    background: #055D62;
+    color: white;
+}.app-tama{
+    letter-spacing: 1px;
+}.app-footer{
+    text-align-last: center;
+    background: #B5B5B5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 50px 0;
+}.app-empresa{
+    margin-bottom: 30px;
+}.app-icon1{
+	max-width: 43px;
+    background:#676767;
+    color: #FFFFFF;
+    padding: 9px;
+    margin-left: 9px;
+    border-radius: 15px;
+}.thumbnail{
+	background: rgba(250,250,250,0.6);
+}#king{
+    font-size: 80px;
+    letter-spacing: 3px;
+    padding-bottom: 200px;
+}#imageSlider{
+	box-shadow: 3px 3px 3px 3px rgba(40,40,40, 0.99);
+	border-radius:0;
+	margin: 0 auto;
+    margin-left: 1px auto;
+    margin-right: 1px auto;
+    margin-top:0 auto;
+    margin-bottom:0 auto;
+    margin-right: 0 auto;
+    width: 100%;
+    height: 20em;  
+}.king{
+    color: white;
+    text-shadow: none;
+    -webkit-transition: font-size 1s;
+}.king:hover{
+    color: #51A4C6;
+    font-size: 2em;
+}.resaltar4{
+    font-size: 2em;
+    color: #51A4C6;
+}.resaltar4:hover{
+    font-size: 1em;
+    color: white;
+    -webkit-transition: font-size 1s;
+}#menu:focus{
+    outline: 0;
+}#image{
+    width: 100%;
+    background: #2F2E2E;
+    border-color: #8AF4FB;
+    border-right-width: 10px;
+    box-shadow: 30px;
+}#imagen{
+    width: 90%;
+    background: #2F2E2E;
+    border-color: #8AF4FB;
+    border-right-width: 10px;
+    box-shadow: 30px;
+    padding: 15px 20px 20px 30px;
+}#imagen1{
+    width: 40%;
+    padding: 5px 5px 5px 5px ;
+    background: rgba(220,94,219,0.5);
+    margin: center;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+}#imagen2{
+    margin-left: 10px;
+    width: 40%;
+    padding: 5px 5px 5px 5px ;
+    background: rgba(9,119,243,0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+}#letradeimg{
+    text-align: center;
+    font-family: "Avenir", Futura, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}#letradeimg:hover{
+    color: #0C8685;
+}#imagenesSelec{
+    margin-bottom: 3px;
+    padding: 2px 0;
+    margin: 1px auto;
+    margin-top: 5px;
+    max-width: 90px;
+    box-sizing: 200px;
+    background: rgba(255,255,255,0.85);
+}#imagenesSelec2{
+    margin-bottom: 5px;
+    padding: 2px 0;
+    margin: 1px auto;
+    margin-top: 5px;
+    max-width: 60px;
+    box-sizing: 200px;
+    background: rgba(255,255,255,0.85); 
+}#letraP{
+	font-family: "bold",bold, "cursiva";
+    font-size: 1.2em;
+}#h4titulo{
+	text-align: center;
+	color:#000000;
+}
+
+@media (max-width: 368px) {
+    .app-seccion1{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+
+    }
+    .app-titulo{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 1.5em;
+    }
+    .app-descripcion{
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
+    #imagen1{
+        width: 109%;
+        padding: 15px 9px 15px 8px;
+        background: rgba(220,94,219,0.3);
+    }
+    #imagen2{
+        width: 109%;
+        padding: 15px 9px 15px 8px;
+        background: rgba(9,119,243,0.3);
+    }
+    .app-formulario{
+        width: 50%;
+        margin: 10px auto;
+    }
+    .app-formularios{
+        padding: 15px 20px 15px 20px;
+        background: rgba(0,0,0,0.8);
+        font-size: 0.8em;
+    }
+    .app-formulario1{
+        width:60%;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+    .app-formulario2{
+        padding:  39px 29px 39px 29px;
+        background: rgba(02,02,02,0.3);
+        font-size: 0.8em;
+    }
+
+    #imagenesSelec{
+        margin-bottom: 2px;
+        padding: 15px 20px 15px 20px;
+        margin: 0px auto;
+        margin-top: 2px;
+        max-width: 2px;
+        box-sizing: 10px;
+        background: rgba(255,255,255,0.9);
+        flex: 
+        
+    }
+    #imagenesSelec2{
+        margin-bottom: 10px;
+        margin: 0px auto;
+        margin-top: 1px;
+        max-width: 1px;
+        background: rgba(255,255,255,0.85);   
+    }
+}
