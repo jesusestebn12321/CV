@@ -18,11 +18,11 @@
 .app-footer{background:rgba(0, 0, 0, .8);}
 .app-footer-border{background: #279DFF;color:white;}
 .text-uppercase {text-transform:uppercase !important;}
-.d-flex {display:-ms-flexbox !important;display:flex !important;}
 .app-imagen-personal{width:50%;height:100%;border-radius:100%;}
+.d-flex {display:-ms-flexbox !important;display:flex !important;}
 .app-badge{z-index: 10;position: absolute;top: -20px;right: -10px;}
-.app-footer-a{color:white;text-decoration-color:none;text-decoration:none;list-style:none;}
 .app-centrar{font-size:30px;padding:0px;width:60px;color:white;text-decoration-line:none;}
+.app-footer-a{color:white;text-decoration-color:none;text-decoration:none;list-style:none;}
 .app-img-titulo{width:auto;height:5rem;padding:1rem;position:absolute;margin:0em 2em 2em 3em;}
 .app-footer-a:hover{color:white;text-decoration-color:none;text-decoration:none;list-style:none;}
 .app-navbar{background:rgba(0, 0, 0, .8);border:2px solid white;height:100%;border-radius:0px;position:absolute;}
@@ -30,6 +30,7 @@
 .app-separador-2{background:#008FFF;margin-top:-10px;margin-bottom:50px;width:200px;height:4px;border-radius:10px;}
 .app-separador-name{background:#6A55FF;margin-top:-10px;margin-bottom:50px;width:405px;height:4px;border-radius:10px;}
 .app-separador-medio{background:#cccc;margin-top:50px;margin-bottom:10px;width:2px;height:115em;border-radius:40px;}
+.app-centrar-imgP{padding: 0px;width:50px;position: absolute;left:150px;height:250px;transition:all 1s;border-radius:95%;}
 .badge{	background: linear-gradient(to top left,#6232FF 0%,#6232FF 10%,#4824FF 20%,#2439FF 40%,#2947FD 60%,#386CFF 80%,#3B76FB 90%,#5487FA 100%)}
 .app-copy{background:-webkit-linear-gradient(left, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);background:-o-linear-gradient(left, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);background:linear-gradient(to right, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);;}
 
