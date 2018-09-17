@@ -1,8 +1,6 @@
 <?php
 include'views/template/userPlantilla.php'; 
 ?>
-
-
 <main>
 	<div class="container">
 		<div class="row">
@@ -100,7 +98,7 @@ include'views/template/userPlantilla.php';
 						</div>
 					</div>
 				</div>
-			<h2>FrameWork<i class="fa fa-code"></i></h2>
+				<h2>FrameWork<i class="fa fa-code"></i></h2>
 				<p class="app-separador-2"></p>
 				<div class="row">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
@@ -174,11 +172,9 @@ include'views/template/userPlantilla.php';
 						</div>
 					</div>
 				</div>
-			
 			</div>
 			<div class="col-xs-hidden col-sm-1">
-			<p class="app-separador-medio"></p>
-				
+				<p class="app-separador-medio"></p>
 			</div>
 			<div class="col-xs-12 col-sm-5">
 				<h2>Sobre Mí <i class="fa fa-user"></i></h2>
@@ -196,7 +192,6 @@ include'views/template/userPlantilla.php';
 						&nbsp;&nbsp;(UNERG) "Ingenieria En Informatica"</p>
 					</li>
 				</ul>
-
 				<h2>Destresas <i class="fa fa-star"></i> </h2>
 				<p class="app-separador-1"></p>
 				<ul>
@@ -204,13 +199,12 @@ include'views/template/userPlantilla.php';
 						<p>&nbsp;Desarrollo las parte logicas de las base de datos con gran destresas, soy un desarrollador de back-end y front-end en distintos lenguajes y framework de sistemas web micros y macros, trabajo en grupo con facilidad y muy buena comunicacion.</p>
 					</li>
 				</ul>
-
 				<h2>Residencia <i class="fa fa-map-marker"></i> </h2>
 				<p class="app-separador-2"></p>
 				<ul>
 					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Residente en: <br>
-						&nbsp;&nbsp;Venezuela, Edo Guarico, San Juan De Los Morros.
+							&nbsp;&nbsp;Venezuela, Edo Guarico, San Juan De Los Morros.
 						</p>
 					</li>
 				</ul>
@@ -261,6 +255,6 @@ include'views/template/userPlantilla.php';
 					</li>
 				</ul>
 			</div>
-			
 		</div>
-	</main>
+	</div>
+</main>
