@@ -8,7 +8,7 @@ include'views/template/userPlantilla.php';
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
 				<h2>Habilidades <i class="fa fa-code"></i></h2>
-				<p class="app-separador-2"></p>
+				<p class="app-separador-2" style="width:220px"></p>
 				
 				<div class="row">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
@@ -182,7 +182,7 @@ include'views/template/userPlantilla.php';
 			</div>
 			<div class="col-xs-12 col-sm-5">
 				<h2>Sobre Mí <i class="fa fa-user"></i></h2>
-				<p class="app-separador-1"></p>
+				<p class="app-separador-1" style="width:180px"></p>
 				<ul>
 					<li class="list-group-item app-none" style="background: none;  border: none;">
 						<p>&nbsp;Soy Programador a tiempo completo, me caracteriso por tener seriedad y madures a la hora de trabajar, se asumir mis resposabilidades, soy una persona ambicioza y detallista a la hora de diseñar, me gusta que mes diseños sena atractivos y divertido; tengo una buena capacidad de analisis y de logica para mis trabajo en Back-End. <br>&nbsp;No soy el mejor diseñador o el mejor en back-end pero intento serlo</p>
@@ -215,7 +215,7 @@ include'views/template/userPlantilla.php';
 					</li>
 				</ul>
 				<h2>Trabajo en Equipo <i class="fa fa-users"></i> </h2>
-				<p class="app-separador-1"></p>
+				<p class="app-separador-1" style="width:330px"></p>
 				<ul>
 					<li class="list-group-item" id="app-none">
 						<ul>
@@ -226,7 +226,7 @@ include'views/template/userPlantilla.php';
 					</li>
 				</ul>
 				<h2>Jobies <i class="fa fa-coffee"></i></h2>
-				<p class="app-separador-2"></p>
+				<p class="app-separador-2" style="width:150px"></p>
 				<ul>
 					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Me gusta el Deportista</p><br>
