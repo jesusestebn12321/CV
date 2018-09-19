@@ -27,6 +27,7 @@ class Plantilla{
 			<link rel="stylesheet" href="./css/main.css">
 			<link rel="stylesheet" href="./css/redes.css">
 			<link rel="stylesheet" href="css/bootstrap.min.css">
+  			<link rel="stylesheet" href="./WOW-master/css/libs/animate.css">
 				<!-- Scripts -->
 			<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>
@@ -38,7 +39,7 @@ class Plantilla{
 			<nav class="navbar app-navbar" id="app-nav-border">
 				<div class="container">
 					<div class="navbar-header">
-						<div class="row">
+						<div class="row wow shake" data-wow-offset="300">
 							<div >
 								<button class="navbar-toggle" date-toggle="collapse" date-target="#menu">
 									<spam class="icon-bar app-icon"></spam>
@@ -55,25 +56,26 @@ class Plantilla{
 			<section>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="app-centrar-imgP col-lg-6">
+						<div class="app-centrar-imgP col-lg-6 wow swing" data-wow-offset="300">
 							<img class="app-imagen-personal" src="img/imgPersonal.jpg" alt="imagen personal">
 						</div>
 						<div class="app-centrar-nombre col-lg-6">
-							<p class="app-titulo-nombre"><h3> Jesus Esteban Villalta Gonzalez</h3></p>
-							<p class="app-separador-name"></p>
-							<ul>
+							<div class="wow bounce" data-wow-offset="300">
+								<p class="app-titulo-nombre"><h3> Jesus Esteban Villalta Gonzalez</h3></p>
+								<p class="app-separador-name"></p>
+							</div>
+							<ul class="wow flash" data-wow-offset="300">
 								<li class="list-group-item" style="padding: none;background: none;border:none;"><h4>Programador <i class="fa fa-code"></i> </h4></li>
 								<li class="list-group-item" style="padding: none;background: none;border:none;"><h4>Diseñador Web <i class="fa fa-code"></i> </h4></li>
 							</ul>
 		                </div>
 					</div>
 				</div>
-                <div>
+                <div class="wow pulse" data-wow-delay=".5s">
 					<div> <?php include 'slider.php'; ?>  </div>
 				</div>
 			</section>
 			</header>
-		
 		<?php 
 	}
 	function __destruct(){
@@ -88,7 +90,7 @@ class Plantilla{
 		          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 		            <h4 class="mb-0 app-h4">Jesus Esteban Villalta Gonzalez CV</h4>
 		          </div>
-		          <div class="col-md-6 col-lg-7 text-center text-md-right">
+		          <div class="col-md-6 col-lg-7 text-center text-md-right wow tada" data-wow-duration="3800ms">
 		            <a class="app-rotar app-icono-redes" href="https://www.facebook.com/esteban.villalta.SK8" data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_black">
 		              <i class="fa fa-facebook  mr-4" style="color:white"> </i>
 		            </a>
@@ -131,16 +133,17 @@ class Plantilla{
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 	<script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
+	<script src="WOW-master/dist/wow.js"></script>
 	<script src="js/main.js"></script>
-
-	
+	<script>
+		$(document).ready(function(){
+		    $("img[alt='www.000webhost.com']").remove();
+		});
+	</script>
 </html>
 
 		<?php 
 	}
 
-
-
-
 }
-?>
+?>    

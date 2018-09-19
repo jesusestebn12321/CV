@@ -5,10 +5,12 @@ include'views/template/userPlantilla.php';
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
-				<h2>Habilidades <i class="fa fa-code"></i></h2>
-				<p class="app-separador-2" style="width:220px"></p>
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Habilidades <i class="fa fa-code"></i></h2>
+					<p class="app-separador-2" style="width:220px"></p>
+				</div>
 				
-				<div class="row">
+				<div class="row wow rollIn" data-wow-offset="300">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
@@ -40,7 +42,7 @@ include'views/template/userPlantilla.php';
 					</div>
 				</div>
 				
-				<div class="row">
+				<div class="row wow bounceIn" data-wow-offset="300">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
@@ -49,7 +51,7 @@ include'views/template/userPlantilla.php';
 							<div class="caption">
 								<h4 id="h4titulo">HTML5</h4>
 								<p id="letraP">
-									<br>Diceño: <span class="app-resaltar2">Avanzado</span>
+									<br>Diseño: <span class="app-resaltar2">Avanzado</span>
 								</p>
 							</div>
 						</div>
@@ -62,14 +64,14 @@ include'views/template/userPlantilla.php';
 							<div class="caption">
 								<h4 id="h4titulo">CSS3</h4>
 								<p id="letraP">
-									<br>Diceño: <span class="app-resaltar2">Avanzado</span>
+									<br>Diseño: <span class="app-resaltar2">Avanzado</span>
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				
-				<div class="row">
+				<div class="row wow bounceInDown" data-wow-offset="300">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
@@ -98,9 +100,11 @@ include'views/template/userPlantilla.php';
 						</div>
 					</div>
 				</div>
-				<h2>FrameWork<i class="fa fa-code"></i></h2>
-				<p class="app-separador-2"></p>
-				<div class="row">
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>FrameWork<i class="fa fa-code"></i></h2>
+					<p class="app-separador-2"></p>
+				</div>
+				<div class="row wow bounceInLeft" data-wow-offset="300">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
@@ -128,7 +132,7 @@ include'views/template/userPlantilla.php';
 						</div>
 					</div>	
 				</div>
-				<div class="row">
+				<div class="row wow fadeIn" data-wow-offset="300">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
@@ -156,7 +160,7 @@ include'views/template/userPlantilla.php';
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row wow bounceInUp" data-wow-offset="300">
 					<div class="col-xs-12 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
@@ -176,41 +180,52 @@ include'views/template/userPlantilla.php';
 			<div class="col-xs-hidden col-sm-1">
 				<p class="app-separador-medio"></p>
 			</div>
+
 			<div class="col-xs-12 col-sm-5">
-				<h2>Sobre Mí <i class="fa fa-user"></i></h2>
-				<p class="app-separador-1" style="width:180px"></p>
-				<ul>
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Sobre Mí <i class="fa fa-user"></i></h2>
+					<p class="app-separador-1" style="width:180px"></p>
+				</div>
+				<ul class="wow fadeInRight" data-wow-offset="300">
 					<li class="list-group-item app-none" style="background: none;  border: none;">
-						<p>&nbsp;Soy Programador a tiempo completo, me caracteriso por tener seriedad y madures a la hora de trabajar, se asumir mis resposabilidades, soy una persona ambicioza y detallista a la hora de diseñar, me gusta que mes diseños sena atractivos y divertido; tengo una buena capacidad de analisis y de logica para mis trabajo en Back-End. <br>&nbsp;No soy el mejor diseñador o el mejor en back-end pero intento serlo</p>
+						<p>&nbsp;Soy Programador a tiempo completo, me caracterizo por tener seriedad y madurez a la hora de trabajar, sé asumir mis resposabilidades, soy ambicioso y detallista a la hora de diseñar, me gusta que mis diseños sean atractivos y divertidos; tengo una buena capacidad de análisis y de lógica para mis trabajos en Back-End<br>&nbsp;Practico y estudio constante mente para ser el mejor diseñador y desarrollador por que esto es lo que me gusta.</p>
 					</li>
 				</ul>
-				<h2>Educación <i class="fa fa-university"></i> </h2>
-				<p class="app-separador-2"></p>
-				<ul>
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Educación <i class="fa fa-university"></i> </h2>
+					<p class="app-separador-2"></p>
+				</div>
+				<ul class="wow " data-wow-offset="300">
 					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Educación Universitaria:<br>	
 						&nbsp;&nbsp;(UNERG) "Ingenieria En Informatica"</p>
 					</li>
 				</ul>
-				<h2>Destresas <i class="fa fa-star"></i> </h2>
-				<p class="app-separador-1"></p>
-				<ul>
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Destrezas <i class="fa fa-star"></i> </h2>
+					<p class="app-separador-1"></p>
+				</div>
+				<ul class="wow fadeInRightBig" data-wow-offset="300">
 					<li class="list-group-item" id="app-none">
-						<p>&nbsp;Desarrollo las parte logicas de las base de datos con gran destresas, soy un desarrollador de back-end y front-end en distintos lenguajes y framework de sistemas web micros y macros, trabajo en grupo con facilidad y muy buena comunicacion.</p>
+						<p>&nbsp;Desarrollo las parte logicas de las base de datos con gran destrezas, soy un desarrollador de back-end y front-end en distintos lenguajes y framework de sistemas web micros y macros, trabajo en grupo con facilidad y muy buena comunicacion.</p>
 					</li>
 				</ul>
-				<h2>Residencia <i class="fa fa-map-marker"></i> </h2>
-				<p class="app-separador-2"></p>
-				<ul>
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Residencia <i class="fa fa-map-marker"></i> </h2>
+					<p class="app-separador-2"></p>
+				</div>
+				<ul class="wow rotateInDownRight" data-wow-offset="300">
 					<li class="list-group-item" id="app-none">
 						<p>&nbsp;Residente en: <br>
 							&nbsp;&nbsp;Venezuela, Edo Guarico, San Juan De Los Morros.
 						</p>
 					</li>
 				</ul>
-				<h2>Trabajo en Equipo <i class="fa fa-users"></i> </h2>
-				<p class="app-separador-1" style="width:330px"></p>
-				<ul>
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Trabajo en Equipo <i class="fa fa-users"></i> </h2>
+					<p class="app-separador-1" style="width:330px"></p>
+				</div>
+				<ul class="wow rotateInUpRight" data-wow-offset="300">
 					<li class="list-group-item" id="app-none">
 						<ul>
 							<li><p>GitHub</p></li>
@@ -219,14 +234,18 @@ include'views/template/userPlantilla.php';
 						</ul>					
 					</li>
 				</ul>
-				<h2>Jobies <i class="fa fa-coffee"></i></h2>
-				<p class="app-separador-2" style="width:150px"></p>
-				<ul>
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Hobbies<i class="fa fa-coffee"></i></h2>
+					<p class="app-separador-2" style="width:150px"></p>
+				</div>
+				<ul class="wow slideInRight" data-wow-offset="300">
 					<li class="list-group-item" id="app-none">
-						<p>&nbsp;Me gusta el Deportista</p><br>
-						<p>&nbsp;Me gusta Disfrutar peliculas</p><br>
-						<p>&nbsp;Me gusta Realizar mis pequeños proyectos en mi tiempo libre</p><br>
-						<p>&nbsp;Me gusta estar apendiendo, todos los dias se aprende algo nuevo</p>
+						<ul>
+							<li><p>Me gusta el Deporte</p></li>
+							<li><p>Me gusta Disfrutar peliculas</p></li>
+							<li><p>Me gusta Realizar mis pequeños proyectos en mi tiempo libre</p></li>
+							<li><p>Me gusta estar apendiendo, todos los dias se aprende algo nuevo</p></li>
+						</ul>
 					</li>
 				</ul>
 			</div>
@@ -234,15 +253,17 @@ include'views/template/userPlantilla.php';
 		<hr style="color: #cccc;background-color: #cccc">
 		<div class="container">
 			<div class="row">
-				<h2>Esperiencia Laboral <i class="fa fa-briefcase"></i></h2>
-				<p class="app-separador-2" style="width: 350px"></p>
-				<ul class="list-group">
+				<div class="wow fadeIn" data-wow-offset="300">
+					<h2>Esperiencia Laboral <i class="fa fa-briefcase"></i></h2>
+					<p class="app-separador-2" style="width: 350px"></p>
+				</div>
+				<ul class="list-group wow slideInDown" data-wow-offset="300">
 					<li class="list-group-item" id="app-titulo-li">
-						<div><h3>QuaTravel</h3></div>
+						<div><h3>QantuTravel</h3></div>
 						<div class="app-badge"><span class="badge"><h3 id="app-con-caja">1 Mes</h3></span></div>
 					</li>
 					<li class="list-group-item"id="app-lista-none">
-						<div>Sistema Back-End de oficina, para la empresa Quatravel</div>
+						<div>Sistema Back-End de oficina, para la empresa QantuTravel</div>
 					</li>
 					<li class="list-group-item"id="app-lista-none">
 						<div>Desarrollo en laravel</div>						

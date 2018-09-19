@@ -30,10 +30,11 @@
 .app-separador-2{background:#008FFF;margin-top:-10px;margin-bottom:50px;width:200px;height:4px;border-radius:10px;}
 .app-separador-name{background:#6A55FF;margin-top:-10px;margin-bottom:50px;width:405px;height:4px;border-radius:10px;}
 .app-separador-medio{background:#cccc;margin-top:50px;margin-bottom:10px;width:2px;height:115em;border-radius:40px;}
-.app-centrar-imgP{padding: 0px;width:50px;position: absolute;left:150px;height:250px;transition:all 1s;border-radius:95%;}
+.app-centrar-imgP{padding: 0px;width:50rem;position: absolute;left:150px;height:35rem;transition:all 1s;border-radius:95%;}
 .badge{background: linear-gradient(to top left,#6232FF 0%,#6232FF 10%,#4824FF 20%,#2439FF 40%,#2947FD 60%,#386CFF 80%,#3B76FB 90%,#5487FA 100%)}
 .app-copy{background:-webkit-linear-gradient(left, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);background:-o-linear-gradient(left, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);background:linear-gradient(to right, #767676 0%, #767676 1%, #A0A0A0 23%, #D7D7D7 49%, #D7D7D7 54%, #A0A0A0 82%, #767676 99%, #767676 100%);;}
-
+.app-div-redes{width:20px;height:20px;}
+.app-div-redes i{font-size:100%;}
 
 
 .app-centrar:hover{font-size:30px;color:white;text-decoration-line:none;}
