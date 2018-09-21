@@ -10,7 +10,7 @@ include'views/template/userPlantilla.php';
 					<p class="app-separador-2" style="width:220px"></p>
 				</div>
 				<div class="row wow rollIn" data-wow-offset="300">
-					<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-md-6 app-letra " id="imagen1">
+					<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-md-offset-0 col-lg-6 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
 								<img class="app-img" src="img/php.png" alt="imagen">
