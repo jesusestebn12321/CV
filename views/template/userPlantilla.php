@@ -40,14 +40,11 @@ class Plantilla{
 				<div class="container">
 					<div class="navbar-header">
 						<div class="row wow shake" data-wow-offset="300">
-							<div >
-								<button class="navbar-toggle" date-toggle="collapse" date-target="#menu">
-									<spam class="icon-bar app-icon"></spam>
-									<spam class="icon-bar app-icon"></spam>
-									<spam class="icon-bar app-icon"></spam>	
-								</button>
+							<div class="col-xs-2 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-sm-1">
 								<img class="app-img-titulo" style="margin-left: -50px;" src="img/manual.png">
-								<a href="#" class="app-centrar" >Curriculum</a>
+							</div>
+							<div class="col-xs-2 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">
+								<a href="#" class="app-centrar col-xs-offset-1" >Curriculum</a>
 							</div>
 						</div>
 					</div>
@@ -56,10 +53,10 @@ class Plantilla{
 			<section>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="app-centrar-imgP col-lg-6 wow swing" data-wow-offset="300">
+						<div class="app-centrar-imgP col-xs-12 col-lg-6 wow swing" data-wow-offset="300">
 							<img class="app-imagen-personal" src="img/imgPersonal.jpg" alt="imagen personal">
 						</div>
-						<div class="app-centrar-nombre col-lg-6">
+						<div class="app-centrar-nombre col-xs-12 col-xs-offset-2 col-sm-offset-0 col-lg-offset-0 col-lg-6">
 							<div class="wow bounce" data-wow-offset="300">
 								<p class="app-titulo-nombre"><h3> Jesus Esteban Villalta Gonzalez</h3></p>
 								<p class="app-separador-name"></p>
@@ -87,10 +84,10 @@ class Plantilla{
 		<div class="app-footer-border" style=" ">
 		    <div class="container">
 		        <div class="row py-4 d-flex">
-		          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+		          <div class="col-md-6 col-xs-12 col-lg-5 text-center text-md-left mb-4 mb-md-0">
 		            <h4 class="mb-0 app-h4">Jesus Esteban Villalta Gonzalez CV</h4>
 		          </div>
-		          <div class="col-md-6 col-lg-7 text-center text-md-right wow tada" data-wow-duration="3800ms">
+		          <div class="col-md-6 col-xs-12 col-xs-pull-0 col-lg-7 text-center text-md-right wow tada" data-wow-duration="3800ms">
 		            <a class="app-rotar app-icono-redes" href="https://www.facebook.com/esteban.villalta.SK8" data-toggle="tooltip" data-placement="bottom" title="Facebook" target="_black">
 		              <i class="fa fa-facebook  mr-4" style="color:white"> </i>
 		            </a>
@@ -132,6 +129,7 @@ class Plantilla{
 		<!-- Scripts   -->
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 	<script src="js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="js/vendor/jquery.inputmask.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
 	<script src="WOW-master/dist/wow.js"></script>
 	<script src="js/main.js"></script>
