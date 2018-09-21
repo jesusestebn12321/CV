@@ -17,6 +17,6 @@
 		<div>Back-End: <br>&nbsp;Desarrollo logico del sistema varios CRUD en este sistema.</div>					
 	</li>
 	<li class="list-group-item" id="app-lista-none">
-		<div>Front-End: <br>&nbsp;Diseño de vista para el dicho sistema de esta empresa de agencia de viaje de Perú.</div>						
+		<div>Front-End: <br>&nbsp;Diseño de vista para el dicho sistema de esta empresa de agencia de viaje de Perú.</div>
 	</li>
 </ul>

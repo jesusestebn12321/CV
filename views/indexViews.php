@@ -9,7 +9,6 @@ include'views/template/userPlantilla.php';
 					<h2>Habilidades <i class="fa fa-code"></i></h2>
 					<p class="app-separador-2" style="width:220px"></p>
 				</div>
-				
 				<div class="row wow rollIn" data-wow-offset="300">
 					<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
@@ -41,7 +40,6 @@ include'views/template/userPlantilla.php';
 						</div>
 					</div>
 				</div>
-				
 				<div class="row wow bounceIn" data-wow-offset="300">
 					<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
@@ -70,7 +68,6 @@ include'views/template/userPlantilla.php';
 						</div>
 					</div>
 				</div>
-				
 				<div class="row wow bounceInDown" data-wow-offset="300">
 					<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
@@ -177,17 +174,13 @@ include'views/template/userPlantilla.php';
 					</div>
 				</div>
 			</div>
-
-			<div class="hidden-xs col-sm-1">
-				<p class="app-separador-medio"></p>
-			</div>
+			<div class="hidden-xs col-sm-1"><p class="app-separador-medio"></p></div>
 			<div class="col-xs-12 col-sm-5">
 				<div class="wow fadeIn col-xs-offset-1 col-sm-offset-0 col-lg-offset-0" data-wow-offset="300">
 					<h2>Sobre Mí <i class="fa fa-user"></i></h2>
 					<p class="app-separador-1" style="width:180px"></p>
 				</div>
-				<div class="col-xs-offset-1">
-					
+				<div class="col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">			
 					<ul class="wow fadeInRight" data-wow-offset="300">
 						<li class="list-group-item app-none" style="background: none;  border: none;">
 							<p>&nbsp;Soy Programador a tiempo completo, me caracterizo por tener seriedad y madurez a la hora de trabajar, sé asumir mis resposabilidades, soy ambicioso y detallista a la hora de diseñar, me gusta que mis diseños sean atractivos y divertidos; tengo una buena capacidad de análisis y de lógica para mis trabajos en Back-End<br>&nbsp;Practico y estudio constante mente para ser el mejor diseñador y desarrollador por que esto es lo que me gusta.</p>
@@ -198,7 +191,7 @@ include'views/template/userPlantilla.php';
 					<h2>Educación <i class="fa fa-university"></i> </h2>
 					<p class="app-separador-2"></p>
 				</div>
-				<div class="col-xs-offset-1">	
+				<div class="col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">	
 					<ul class="wow " data-wow-offset="300">
 						<li class="list-group-item" id="app-none">
 							<p>&nbsp;Educación Universitaria:<br>	
@@ -210,7 +203,7 @@ include'views/template/userPlantilla.php';
 					<h2>Destrezas <i class="fa fa-star"></i> </h2>
 					<p class="app-separador-1"></p>
 				</div>
-				<div class="col-xs-offset-1">
+				<div class="col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">
 					<ul class="wow fadeInRightBig" data-wow-offset="300">
 						<li class="list-group-item" id="app-none">
 							<p>&nbsp;Desarrollo las parte logicas de las base de datos con gran destrezas, soy un desarrollador de back-end y front-end en distintos lenguajes y framework de sistemas web micros y macros, trabajo en grupo con facilidad y muy buena comunicacion.</p>
@@ -221,7 +214,7 @@ include'views/template/userPlantilla.php';
 					<h2>Residencia <i class="fa fa-map-marker"></i> </h2>
 					<p class="app-separador-2"></p>
 				</div>
-				<div class="col-xs-offset-1">
+				<div class="col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">
 					<ul class="wow rotateInDownRight" data-wow-offset="300">
 						<li class="list-group-item" id="app-none">
 							<p>&nbsp;Residente en: <br>
@@ -234,7 +227,7 @@ include'views/template/userPlantilla.php';
 					<h2>Trabajo en Equipo <i class="fa fa-users"></i> </h2>
 					<p class="app-separador-1" style="width:330px"></p>
 				</div>
-				<div class="col-xs-offset-1">					
+				<div class="col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">					
 					<ul class="wow rotateInUpRight" data-wow-offset="300">
 						<li class="list-group-item" id="app-none">
 							<ul>
@@ -249,7 +242,7 @@ include'views/template/userPlantilla.php';
 					<h2>Hobbies<i class="fa fa-coffee"></i></h2>
 					<p class="app-separador-2" style="width:150px"></p>
 				</div>
-				<div class="col-xs-offset-1">					
+				<div class="col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">					
 					<ul class="wow slideInRight" data-wow-offset="300">
 						<li class="list-group-item" id="app-none">
 							<ul>
@@ -263,15 +256,12 @@ include'views/template/userPlantilla.php';
 				</div>
 			</div>
 		</div>
-		
 		<hr style="color: #cccc;background-color: #cccc">
-		
 		<div class="container">
 			<div class="row">
 				<?php include('template/experiencia.php') ?>
 			</div>
 		</div>
-
 	</div>
 </main>
 <section style="background: #ccc;">
