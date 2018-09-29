@@ -269,7 +269,6 @@ include'views/template/userPlantilla.php';
 		<div class="container" style="">
 			<div class="row">
 				<div class="col-xs-12">
-					
 					<?php include('template/form.php'); ?>
 				</div>
 			</div>

@@ -7,6 +7,7 @@
 	--color-green:#19a7ca77;
 	--color-white:white;
 	--color-black:rgba(0, 0, 0, .8);
+	--color-red:#ff1100b6;
 }
 .app-div-1{height:10rem;}
 .text-white{color:var(--color-white);}
