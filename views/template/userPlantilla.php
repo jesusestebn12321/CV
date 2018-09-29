@@ -26,7 +26,7 @@ class Plantilla{
 			<script src="js/vendor/jquery-1.11.2.min.js"></script>
 		</head>
 		<body>
-			<header>
+			<header >
 				<?php include 'sidebarredes.php'; ?>
 				<nav class="navbar app-navbar" id="app-nav-border">
 					<div class="container">
@@ -36,7 +36,7 @@ class Plantilla{
 									<img class="app-img-titulo" style="margin-left: -50px;" src="img/manual.png">
 								</div>
 								<div class="col-xs-2 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">
-									<a href="#" class="app-centrar col-xs-offset-1" >Curriculum</a>
+									<a href="#" class="app-centrar col-xs-offset-1 app-diagonal" >Curriculum</a>
 								</div>
 							</div>
 						</div>
@@ -120,7 +120,6 @@ class Plantilla{
 						<!-- Scripts   -->
 						<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 						<script src="js/vendor/jquery-1.11.2.min.js"></script>
-						<script src="js/vendor/jquery.inputmask.js"></script>
 						<script src="js/vendor/bootstrap.min.js"></script>
 						<script src="WOW-master/dist/wow.js"></script>
 						<script src="js/main.js"></script>
