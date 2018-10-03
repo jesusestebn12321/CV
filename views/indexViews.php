@@ -275,3 +275,42 @@ include'views/template/userPlantilla.php';
 		</div>
 	</div>
 </section>
+<script>
+$('#submit').click(function(){
+	var nombre=$('#nombre');
+	var correo=$('#correo');
+	var telefono=$('#telefono');
+	var asunto=$('#asunto');
+	var mensaje=$('#mensaje');
+	if (notEmpty(nombre) && notEmpty(correo) && notEmpty(telefono) && notEmpty(asunto) && notEmpty(mensaje)  ) {
+		swal(nombre + correo + telefono + asunto + mensaje);
+		// $.ajax({
+		// 	type: "POST",
+		// 	url: "../controllers/enviar.php",
+		// 	dataType: "text",
+		// 	data: {
+		// 		key:'enviar'
+		// 		nombre:nombre.val(),
+		// 		correo:correo.val(),
+		// 		telefono:telefono.val(),
+		// 		asunto:asunto.val(),
+		// 		mensaje:mensaje.val(),
+		// 	},
+		// 	success: function (response) {
+		
+		// 	}
+		// });
+	}
+});
+function notEmpty(request){
+	if (request.val() == '' ){
+		request.css('border','1.5px solid #FE4242');
+		$('#help-'+request).removeClass('hidden');
+		return false;
+	}else{
+		request.css('border','');
+		$('#help-'+request).addClass('hidden');
+		return true;
+	}
+}
+</script>
