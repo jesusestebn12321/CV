@@ -105,7 +105,7 @@ class Plantilla{
 					<div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-md-0 mb-4">
 						<h6 class="text-uppercase text-white">Contactos</h6>
 						<p class="app-separador"></p>
-						<p class="text-white">
+						<p class="text-white" >
 							<i class="fa fa-home mr-3"></i> Venezuela, Edo Guarico, San Juan De Los Morros.</p>
 							<p class="text-white">
 								<i class="fa fa-envelope mr-3"></i> jesusesteban12321@gmail.com</p>
