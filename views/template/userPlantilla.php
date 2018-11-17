@@ -30,7 +30,7 @@ class Plantilla{
 			<header class="app-diagonal" style='font-family:"Shrikhand", cursive'>
 				<section >
 
-					<?php include 'sidebarredes.php'; ?>
+					<span class="desaparecer"><?php include 'sidebarredes.php'; ?></span>
 					<nav class="navbar navbar-fixed-top app-navbar "  id="app-nav-border">
 						<div class="container">
 							<div class="navbar-header">
@@ -38,7 +38,7 @@ class Plantilla{
 									<div class="col-xs-2 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-sm-1">
 										<img class="app-img-titulo" style="margin-left: -50px;" src="img/manual.png">
 									</div>
-									<div class="col-xs-2 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">
+									<div class="col-xs-2 col-xs-offset-1 col-md-offset-0 col-sm-offset-0 col-lg-offset-0">
 										<a href="#" class="app-centrar col-xs-offset-1" >Curriculum</a>
 									</div>
 								</div>
@@ -48,10 +48,10 @@ class Plantilla{
 					<section >
 						<div class="container-fluid">
 							<div class="row">
-								<div class="app-centrar-imgP col-xs-12 col-lg-6 wow swing" data-wow-offset="300">
+								<div class="app-centrar-imgP app-col col-xs-12  col-sm-6 col-md-6 col-lg-6 wow swing" data-wow-offset="300">
 									<img class="app-imagen-personal" src="img/imgPersonal.jpg" alt="imagen personal">
 								</div>
-								<div class="app-centrar-nombre col-xs-12 col-xs-offset-2 col-sm-offset-0 col-lg-offset-0 col-lg-6">
+								<div class="app-centrar-nombre col-xs-12 col-md-6 col-sm-6  col-xs-offset-2 col-sm-offset-0 col-lg-offset-0 col-lg-6">
 									<div class="wow bounce" data-wow-offset="300">
 										<p class="app-titulo-nombre"><h3 class="text-blanco"> Jesus Esteban Villalta Gonzalez</h3></p>
 										<p class="app-separador-name"></p>
@@ -63,7 +63,7 @@ class Plantilla{
 								</div>
 							</div>
 						</div>
-						<div class="wow pulse" data-wow-delay=".5s">
+						<div class="wow pulse desaparecer-pq" data-wow-delay=".5s">
 							<div> <?php include 'slider.php'; ?>  </div>
 						</div>
 					</section>
@@ -106,34 +106,40 @@ class Plantilla{
 						<h6 class="text-uppercase text-white">Contactos</h6>
 						<p class="app-separador"></p>
 						<p class="text-white" >
-							<i class="fa fa-home mr-3"></i> Venezuela, Edo Guarico, San Juan De Los Morros.</p>
-							<p class="text-white">
-								<i class="fa fa-envelope mr-3"></i> jesusesteban12321@gmail.com</p>
-								<p class="text-white">
-									<i class="fa fa-whatsapp mr-3"></i> +58 412-480-84-94</p>
-									<p class="text-white">
-										<i class="fa fa-telegram mr-3"></i> +58 426-334-49-23</p>
-									</div>
-									<div class="col-md-3 col-lg-3 col-xl-6 mx-auto mb-md-0 mb-4" ></div>
-								</div>
-							</div>
-							<div class="text-center py-3 app-copy">©2018 Copyright:
-								<a href="#!"> JesusVillaltaCV</a>
-							</div>
-						</footer>     
-						<!-- Scripts   -->
-						<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-						<script src="js/vendor/jquery-1.11.2.min.js"></script>
-						<script src="js/vendor/bootstrap.min.js"></script>
-						<script src="WOW-master/dist/wow.js"></script>
-						<script src="js/main.js"></script>
-						<script>
-							$(document).ready(function(){
-								$("img[alt='www.000webhost.com']").remove();
-							});
-						</script>
-						</html>
-						<?php 
-		}
+							<i class="fa fa-home mr-3"></i> Venezuela, Edo Guarico, San Juan De Los Morros.
+						</p>
+						<p class="text-white">
+							<i class="fa fa-envelope mr-3"></i> jesusesteban12321@gmail.com
+						</p>
+						<p class="text-white">
+							<i class="fa fa-whatsapp mr-3"></i> +58 412-480-84-94
+						</p>
+						<p class="text-white">
+							<i class="fa fa-telegram mr-3"></i> +58 426-334-49-23
+						</p>
+					</div>
+					<div class="col-md-3 col-lg-3 col-xl-6 mx-auto mb-md-0 mb-4" ></div>
+				</div>
+			</div>
+			<div class="text-center py-3 app-copy">©2018 Copyright:
+				<a href="#!"> JesusVillaltaCV</a>
+			</div>
+		</footer>     
+		<!-- Scripts   -->
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+		<script src="js/vendor/jquery-1.11.2.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="WOW-master/dist/wow.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("img[alt='www.000webhost.com']").remove();
+			});
+		</script>
+	</html>
+	<?php 
+	}
 }
+
+
 				?>    

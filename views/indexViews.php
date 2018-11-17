@@ -25,7 +25,7 @@ include'views/template/userPlantilla.php';
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-sm-offset-0 col-lg-offset-0 col-lg-6 app-letra " id="imagen1">
+					<div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-sm-offset-0 col-lg-offset-0 col-lg-6 col-md-6 app-letra " id="imagen1">
 						<div class="thumbnail"> 
 							<div class="app-div-1">
 								<img class="app-img" src="img/javascript.png" alt="imagen">
@@ -35,6 +35,7 @@ include'views/template/userPlantilla.php';
 								<p id="letraP">
 									<br>Frot-end: <span class="app-resaltar2">Avanzado</span>
 									<br>Back-end: <span class="app-resaltar2">Medio</span>
+									&nbsp;
 								</p>
 							</div>
 						</div>
@@ -225,7 +226,7 @@ include'views/template/userPlantilla.php';
 				</div>
 				<div class="wow fadeIn col-xs-offset-1 col-sm-offset-0 col-lg-offset-0" data-wow-offset="300">
 					<h2>Trabajo en Equipo <i class="fa fa-users"></i> </h2>
-					<p class="app-separador-1" style="width:330px"></p>
+					<p class="app-separador-trabajo"></p>
 				</div>
 				<div class="col-xs-offset-1 col-sm-offset-0 col-lg-offset-0">					
 					<ul class="wow rotateInUpRight" data-wow-offset="300">
@@ -273,44 +274,8 @@ include'views/template/userPlantilla.php';
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> 
 </section>
 <script>
-$('#submit').click(function(){
-	var nombre=$('#nombre');
-	var correo=$('#correo');
-	var telefono=$('#telefono');
-	var asunto=$('#asunto');
-	var mensaje=$('#mensaje');
-	if (notEmpty(nombre) && notEmpty(correo) && notEmpty(telefono) && notEmpty(asunto) && notEmpty(mensaje)  ) {
-		swal(nombre + correo + telefono + asunto + mensaje);
-		// $.ajax({
-		// 	type: "POST",
-		// 	url: "../controllers/enviar.php",
-		// 	dataType: "text",
-		// 	data: {
-		// 		key:'enviar'
-		// 		nombre:nombre.val(),
-		// 		correo:correo.val(),
-		// 		telefono:telefono.val(),
-		// 		asunto:asunto.val(),
-		// 		mensaje:mensaje.val(),
-		// 	},
-		// 	success: function (response) {
-		
-		// 	}
-		// });
-	}
-});
-function notEmpty(request){
-	if (request.val() == '' ){
-		request.css('border','1.5px solid #FE4242');
-		$('#help-'+request).removeClass('hidden');
-		return false;
-	}else{
-		request.css('border','');
-		$('#help-'+request).addClass('hidden');
-		return true;
-	}
-}
+
 </script>

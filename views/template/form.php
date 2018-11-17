@@ -1,5 +1,5 @@
 <div class="panel panel-default wow rotateInUpRight" style="margin-top: 20px;box-shadow:5px 5px  rgba(0,0,0,.5);border: none;">
-	<form method="POST" action="controllers/enviar.php" class="form-horizontal">
+	<form  class="form-horizontal">
 		<div class="panel-heading bg-aqua">
 			<h3 class="panel-title"><span class="texto-blanco">Enviar correo</span> </h3>
 		</div>	
@@ -71,14 +71,14 @@
 		<div class="panel-footer">
 			<div class="form-group">
 				<div class="col-sm-3 col-sm-offset-8 col-xs-12">
-					<button class="btn btn-primary btn-block" id="enviar" data-toggle='tooltip' data-placement="right" title="Enviar">Enviar</button>
-
+					<a class="btn btn-primary btn-block" id="enviar" data-toggle='tooltip'  data-placement="right" title="Enviar">Enviar </a>
 				</div>
 			</div>	
 		</div>
 	</form>
 </div>
 <script>
+
 	$(document).ready(function(){
 		var nombre=$('#nombre');
 		var correo=$('#correo');

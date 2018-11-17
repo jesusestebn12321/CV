@@ -51,6 +51,7 @@
 .app-footer-a:hover{color:var(--color-white);text-decoration-color:none;text-decoration:none;list-style:none;}
 .app-navbar{background:var(--color-black);border:2px solid var(--color-white);border-radius:0px;}
 .app-separador-1{background:var(--color-aqua-light);margin-top:-10px;margin-bottom:50px;width:200px;height:4px;border-radius:10px;}
+.app-separador-trabajo{background:var(--color-aqua-light);margin-top:-10px;margin-bottom:50px;width:330px;height:4px;border-radius:10px;}
 .app-separador-2{background:var(--color-blue);margin-top:-10px;margin-bottom:50px;width:200px;height:4px;border-radius:10px;}
 .app-separador-name{background:var(--color-aqua);margin-top:-10px;margin-bottom:50px;width:405px;height:4px;border-radius:10px;}
 .app-separador-medio{background:var(--color-gray);margin-top:50px;margin-bottom:10px;width:2px;height:115em;border-radius:40px;}
@@ -94,14 +95,87 @@ header{
 }
 
 .app-diagonal{	
-  border:0px transparent;
+	border:0px transparent;
   background:repeating-linear-gradient(-45deg,
   var(--color-black) 0, var(--color-aqua) 40%,
   var(--color-aqua) 0, var(--color-blue-dark) 60%,
   var(--color-blue-dark) 0, var(--color-black));	
 }
-
-
 h2{
 	font-family:"Shrikhand", cursive;
+}
+
+@media (min-width:375px) {
+ 	.app-col{
+		 width: 100%;
+		height: 100%;
+		margin: 0px auto;
+ 	}
+}
+@media (min-width:768px) {
+ 	p{
+		font-size: 1rem;
+	 }
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1rem;
+	}
+	.app-separador-trabajo, .app-separador-name{
+		width: 90%;
+	}
+	.desaparecer{
+		display: none;
+	}
+}
+@media (min-width:375px) {
+ 	p{
+		font-size: 1rem;
+	 }
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1rem;
+	}
+	.app-separador-trabajo, .app-separador-name{
+		width: 90%;
+	}
+	.desaparecer{
+		display: none;
+	}
+	
+	.app-titulo-nombre{
+		font-size: 1rem;
+		letter-spacing: none;
+		display:none;
+		margin: auto 0;
+	}
+
+}
+@media (min-width:360px) {
+ 	p{
+		font-size: 1rem;
+	 }
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1rem;
+	}
+	.app-separador-trabajo, .app-separador-name{
+		width: 90%;
+	}
+	.desaparecer{
+		display: none;
+	}
+	
+	.app-titulo-nombre{
+		font-size: 1rem;
+		letter-spacing: none;
+		display:none;
+		margin: auto 0;
+	}
+
 }
